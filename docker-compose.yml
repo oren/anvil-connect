@@ -1,0 +1,11 @@
+server:
+  build: .
+  ports:
+   - "3000:3000"
+  volumes:
+   - .:/src
+  command: "node server.js"
+  environment:
+    NODE_ENV: production
+  restart: always
+
