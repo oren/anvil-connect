@@ -8,7 +8,7 @@
     docker-compose run server nv signup
     docker-compose run server nv assign admin@test.com
 
-## Running using Alpine image
+## Running using Alpine image (not working yet)
 
 I am getting errors when trying to install anvil-connect inside alpine container.
 
