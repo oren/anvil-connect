@@ -3,3 +3,4 @@
 ## Install
 
     docker-compose build
+    docker-compose run server npm install
