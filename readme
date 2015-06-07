@@ -4,3 +4,4 @@
 
     docker-compose build
     docker-compose run server npm install
+    docker-compose run server nv migrate

@@ -1,0 +1,5 @@
+
+npm install
+nv migrate
+nv signup
+nv assign admin@test.com authority
